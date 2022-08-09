@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">EuroLeagueAPP_API29</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="e_name">name</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="swipe_left_for_register">swipe left for register</string>
+    <string name="tag">tag</string>
+    <string name="register">register</string>
+    <string name="your_name">your name</string>
+    <string name="re_type_password">re type pass</string>
+    <string name="swipe_right_for_login">swipe right for login</string>
 </resources>
