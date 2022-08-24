@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         if (savedInstanceState == null) {
-            LoginFragment loginFragment = new LoginFragment();
+            LoginFragment loginFragment = new LoginFragment().newInstance();
+            // RegisterFragment registerFragment = new RegisterFragment().newInstance();
             getSupportFragmentManager()
                     .beginTransaction()
                     .replace(R.id.viewPager, loginFragment)

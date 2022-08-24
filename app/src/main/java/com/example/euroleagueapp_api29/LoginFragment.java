@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.FrameLayout;
 
 public class LoginFragment extends Fragment {
 
@@ -27,5 +28,13 @@ public class LoginFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view,@NonNull Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-    }
+        Button tap_for_register = requireActivity().findViewById(R.id.btn_tap_for_register);
+        tap_for_register.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, RegisterFragment.newInstance())
+                    .commit();
+    });
+}
 }
