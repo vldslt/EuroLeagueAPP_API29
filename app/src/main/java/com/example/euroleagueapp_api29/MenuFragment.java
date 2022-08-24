@@ -4,17 +4,15 @@ import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 
-public class RegisterFragment extends Fragment {
+public class MenuFragment extends Fragment {
 
-    public static RegisterFragment newInstance() {
-        RegisterFragment fragment = new RegisterFragment();
+    public static MenuFragment newInstance() {
+        MenuFragment fragment = new MenuFragment();
         return fragment;
     }
 

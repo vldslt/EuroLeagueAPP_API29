@@ -32,10 +32,10 @@
         android:layout_marginBottom="50dp"/>
 
     <EditText
-        android:id="@+id/et_name"
+        android:id="@+id/et_full_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="@string/your_name"
+        android:hint="@string/your_full_name"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
@@ -44,10 +44,10 @@
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_email"
+        android:id="@+id/et_nickname"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="@string/e_name"
+        android:hint="@string/nickname"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="10dp"
@@ -98,26 +98,18 @@
             android:text="@string/register"
             android:textColor="@android:color/white" />
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:background="@color/white"
-            android:alpha="0.75"
-            android:src="@drawable/ic_arrow_left"
-            android:layout_above="@id/swipeLeft"
-            android:layout_centerHorizontal="true"/>
-
-        <TextView
-            android:id="@+id/swipeLeft"
+        <Button
+            android:id="@+id/btn_tap_for_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:alpha="0.75"
-            android:text="@string/swipe_right_for_login"
-            android:textSize="15sp"
-            android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginBottom="20dp"/>
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:alpha="0.75"
+            android:background="@color/white"
+            android:src="@drawable/ic_arrow_right"
+            android:text="@string/tap_for_login"
+            android:textSize="15sp" />
 
     </RelativeLayout>
 
