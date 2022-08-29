@@ -10,13 +10,13 @@
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="EUROLEAGUE"
-        android:textSize="50sp"
-        android:background="@color/white"
-        android:alpha="0.75"
+        android:layout_above="@id/tv_subtitle"
         android:layout_marginStart="25dp"
         android:layout_marginBottom="10dp"
-        android:layout_above="@id/tv_subtitle"/>
+        android:alpha="0.75"
+        android:background="@color/white"
+        android:text="EUROLEAGUE"
+        android:textSize="50sp" />
 
     <TextView
         android:id="@+id/tv_subtitle"

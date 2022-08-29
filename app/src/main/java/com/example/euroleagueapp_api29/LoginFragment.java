@@ -26,7 +26,7 @@ public class LoginFragment extends Fragment {
     }
 
     @Override
-    public void onViewCreated(@NonNull View view,@NonNull Bundle savedInstanceState) {
+    public void onViewCreated(@NonNull View view, @NonNull Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         Button tap_for_register = requireActivity().findViewById(R.id.btn_tap_for_register);
         tap_for_register.setOnClickListener(v -> {
@@ -35,6 +35,14 @@ public class LoginFragment extends Fragment {
                     .beginTransaction()
                     .add(R.id.viewPager, RegisterFragment.newInstance())
                     .commit();
-    });
-}
+        });
+        Button login = requireActivity().findViewById(R.id.btn_login);
+        login.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, MenuFragment.newInstance())
+                    .commit();
+        });
+    }
 }
