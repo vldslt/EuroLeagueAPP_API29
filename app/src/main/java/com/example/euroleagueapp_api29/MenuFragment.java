@@ -18,7 +18,7 @@ public class MenuFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_menu, container, false);
     }
 
@@ -31,6 +31,30 @@ public class MenuFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, PredictionFragment.newInstance())
+                    .commit();
+        });
+        Button tap_for_stats = requireActivity().findViewById(R.id.btn_stats);
+        tap_for_stats.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, StatsFragment.newInstance())
+                    .commit();
+        });
+        Button tap_for_table_tour = requireActivity().findViewById(R.id.btn_table_tour);
+        tap_for_table_tour.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, TabletourFragment.newInstance())
+                    .commit();
+        });
+        Button tap_for_table = requireActivity().findViewById(R.id.btn_table);
+        tap_for_table.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, TableseasonFragment.newInstance())
                     .commit();
         });
     }

@@ -7,12 +7,19 @@
         <entry key="app/src/main/res/drawable/et_custom.xml" value="0.3395" />
         <entry key="app/src/main/res/drawable/ic_arrow_left.xml" value="0.3395" />
         <entry key="app/src/main/res/drawable/ic_arrow_right.xml" value="0.3395" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.34496919917864477" />
         <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_prediction.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_reg.xml" value="0.22826086956521738" />
         <entry key="app/src/main/res/layout/fragment_register.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_stat_of_season.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_stat_person.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_stats.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_tabetour.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_table_records.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_tableseason.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/fragment_tabletour.xml" value="0.35625" />
       </map>
     </option>
   </component>

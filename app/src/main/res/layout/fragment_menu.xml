@@ -41,7 +41,7 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/table_tour"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/btn_stats"
@@ -53,6 +53,6 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/stats"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
