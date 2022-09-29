@@ -33,6 +33,15 @@ public class RegisterFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, LoginFragment.newInstance())
+                    .addToBackStack("")
+                    .commit();
+        });
+        Button login = requireActivity().findViewById(R.id.btn_register);
+        login.setOnClickListener(v -> {
+            requireActivity()
+                    .getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.viewPager, MenuFragment.newInstance())
                     .commit();
         });
     }

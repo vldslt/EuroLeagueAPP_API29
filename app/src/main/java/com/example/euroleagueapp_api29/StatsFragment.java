@@ -31,6 +31,7 @@ public class StatsFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, StatPersonFragment.newInstance())
+                    .addToBackStack("")
                     .commit();
         });
         Button tap_for_stat_of_season = requireActivity().findViewById(R.id.btn_stat_ofseason);
@@ -39,6 +40,7 @@ public class StatsFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, StatOfSeasonFragment.newInstance())
+                    .addToBackStack("")
                     .commit();
         });
         Button tap_for_records = requireActivity().findViewById(R.id.btn_records);
@@ -47,6 +49,7 @@ public class StatsFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, TableRecordsFragment.newInstance())
+                    .addToBackStack("")
                     .commit();
         });
     }

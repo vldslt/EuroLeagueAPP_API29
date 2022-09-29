@@ -34,6 +34,7 @@ public class LoginFragment extends Fragment {
                     .getSupportFragmentManager()
                     .beginTransaction()
                     .add(R.id.viewPager, RegisterFragment.newInstance())
+                    .addToBackStack("")
                     .commit();
         });
         Button login = requireActivity().findViewById(R.id.btn_login);
