@@ -1,132 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/scroll"
-    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:layout_gravity="center_horizontal"
-    android:background="@drawable/predict">
+    android:background="@drawable/predict"
+    tools:context=".ui.PredictionFragment">
 
-    <Button
-        android:id="@+id/btn_match_1"
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/predictionList"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="37dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 1 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_1"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 2 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_2"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 3 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_3"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 4 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_4"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 5 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_5"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 6 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_6"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 7 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_7"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 8 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_8"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 9 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_match_10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_9"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="20dp"
-        android:background="@drawable/btn_custom"
-        android:text="МАТЧ 10 ВРЕМЯ ХОЗЯЕВА-ГОСТИ"
-        android:textColor="@android:color/white" />
-    <Button
-        android:id="@+id/btn_send_predictions"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/btn_match_10"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="35dp"
-        android:layout_marginRight="20dp"
-        android:background="#EE800000"
-        android:text="ОТПРАВИТЬ ПРОГНОЗЫ"
-        android:textColor="@android:color/white" />
-</LinearLayout>
+        android:layout_height="match_parent"
+        tools:listitem="@layout/fragment_prediction_recycler_item"/>
+
+
+</FrameLayout>

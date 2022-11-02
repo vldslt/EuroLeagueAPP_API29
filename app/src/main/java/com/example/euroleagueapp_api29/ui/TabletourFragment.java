@@ -1,4 +1,4 @@
-package com.example.euroleagueapp_api29;
+package com.example.euroleagueapp_api29.ui;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.fragment.app.Fragment;
+
+import com.example.euroleagueapp_api29.R;
 
 public class TabletourFragment extends Fragment {
 

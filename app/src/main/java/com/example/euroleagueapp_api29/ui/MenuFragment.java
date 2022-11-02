@@ -1,4 +1,4 @@
-package com.example.euroleagueapp_api29;
+package com.example.euroleagueapp_api29.ui;
 
 import android.os.Bundle;
 
@@ -6,11 +6,11 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+import com.example.euroleagueapp_api29.R;
 
 public class MenuFragment extends Fragment {
 

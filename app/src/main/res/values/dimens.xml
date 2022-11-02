@@ -1,3 +1,7 @@
 <resources>
     <dimen name="text_margin">16dp</dimen>
+    <dimen name="sizeItemList">25sp</dimen>
+    <dimen name="textDescription">28sp</dimen>
+    <dimen name="textTitle">31sp</dimen>
+    <dimen name="heightImage">200dp</dimen>
 </resources>

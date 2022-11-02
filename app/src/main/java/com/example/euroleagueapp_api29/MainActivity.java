@@ -6,7 +6,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toolbar;
+
+import com.example.euroleagueapp_api29.ui.AboutFragment;
+import com.example.euroleagueapp_api29.ui.LoginFragment;
 
 public class MainActivity<toolbar> extends AppCompatActivity {
 

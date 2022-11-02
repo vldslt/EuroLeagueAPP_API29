@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/enter"
-    tools:context=".LoginFragment">
+    tools:context=".ui.LoginFragment">
 
     <TextView
         android:id="@+id/tv_title"
@@ -38,48 +38,35 @@
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:padding="15dp"
-        android:inputType="textEmailAddress"
-        android:layout_above="@id/et_password"
+        android:inputType="text"
+        android:layout_above="@id/e_surname"
         android:background="@drawable/et_custom"
         android:textSize="15sp" />
 
     <EditText
-        android:id="@+id/et_password"
+        android:id="@+id/e_surname"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:hint="@string/password"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginTop="10dp"
-        android:padding="15dp"
-        android:inputType="textPassword"
         android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/et_custom"
+        android:hint="@string/e_surname"
+        android:inputType="text"
+        android:padding="15dp"
         android:textSize="15sp" />
 
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/et_password"
+        android:layout_below="@id/e_surname"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/login"
         android:textColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/btn_tap_for_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white"
-        android:alpha="0.75"
-        android:text="@string/tap_for_register"
-        android:textSize="15sp"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="20dp"
-        android:src="@drawable/ic_arrow_right" />
 
 </RelativeLayout>
