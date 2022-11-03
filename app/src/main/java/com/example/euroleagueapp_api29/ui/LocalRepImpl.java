@@ -45,4 +45,9 @@ public class LocalRepImpl implements CardSourse {
     public CardData getCardData(int position) {
         return dataSourse.get(position); // вернуть карточку по позиции
     }
+
+    @Override
+    public void makePredict(int position, CardData newCardData) {
+        dataSourse.set(position, newCardData);
+    }
 }
