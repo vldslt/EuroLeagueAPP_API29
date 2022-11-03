@@ -15,73 +15,40 @@
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Статистика сезона"
-        android:textSize="35sp" />
+        android:textSize="60sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="180dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Прошло матчей = 300 из 300"
-        android:textSize="20sp" />
+        android:textSize="@dimen/textDescription" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="230dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Лидер таблицы = Вася Жопин 200"
-        android:textSize="20sp" />
+        android:textSize="@dimen/textDescription" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="280dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Лучший средний = Пися Камушкин 3"
-        android:textSize="20sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="210dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:alpha="0.95"
-        android:background="@color/white"
-        android:text="Эксклюзивы бомбардиры = 30"
-        android:textSize="20sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:alpha="0.95"
-        android:background="@color/white"
-        android:text="Среднее очков за сезон = 300"
-        android:textSize="20sp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="290dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:alpha="0.95"
-        android:background="@color/white"
-        android:text="Эксклюзивы ТС = 300"
-        android:textSize="20sp" />
+        android:textSize="@dimen/textDescription" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -91,17 +58,50 @@
         android:layout_marginRight="20dp"
         android:alpha="0.95"
         android:background="@color/white"
-        android:text="Лучший матч = 900"
-        android:textSize="20sp" />
+        android:text="Эксклюзивы бомбардиры = 30"
+        android:textSize="@dimen/textDescription" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text="Среднее очков за сезон = 300"
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text="Эксклюзивы ТС = 300"
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text="Лучший матч = 900"
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Худший матч = 1"
-        android:textSize="20sp" />
+        android:textSize="@dimen/textDescription" />
 </FrameLayout>

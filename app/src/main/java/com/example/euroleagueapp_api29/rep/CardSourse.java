@@ -8,4 +8,6 @@ public interface CardSourse {
     int size();
     List<CardData> getAllCardsData();
     CardData getCardData(int position);
+    void makePredict(int position, CardData newCardData);
+
 }
