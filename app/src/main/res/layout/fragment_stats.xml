@@ -15,7 +15,8 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/person_stat"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textDescription"/>
 
     <Button
         android:id="@+id/btn_stat_ofseason"
@@ -27,7 +28,8 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/stat_ofseason"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textDescription"/>
 
     <Button
         android:id="@+id/btn_records"
@@ -39,7 +41,8 @@
         android:layout_marginRight="20dp"
         android:background="@drawable/btn_custom"
         android:text="@string/btn_records"
-        android:textColor="@android:color/white"/>
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textDescription"/>
 
 
 </FrameLayout>

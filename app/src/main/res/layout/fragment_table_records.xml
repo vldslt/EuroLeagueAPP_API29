@@ -15,6 +15,73 @@
         android:alpha="0.95"
         android:background="@color/white"
         android:text="Рекорды ЕВРОЛИГИ"
-        android:textSize="35sp" />
+        android:textSize="60sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Всего сезонов•14 "
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Всего победителей•9 "
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Максимум побед•Антон Гришин(4) "
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Максимум % исходов за тур•91,7% Александр Чапаров (2сезон, 19 тур) "
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="492dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Самый результативный прогноз• Антон Титаренко (2сезон, 1 тур) - Барселона : Сельта = 6:1"
+        android:textSize="@dimen/textDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:alpha="0.95"
+        android:background="@color/white"
+        android:text=" Больше всего медалей • Георгий Сибиряков (8 : 2/3/3)"
+        android:textSize="@dimen/textDescription" />
+
 
 </FrameLayout>
