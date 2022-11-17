@@ -8,7 +8,5 @@ public interface CardSourse {
     CardData getCardData(int position);
 
     void addCardData(CardData cardData); //меню(нет)
-
-    void makePredict(int position, CardData newCardData); //контекстное
-
+    void makePredict(int position, CardData newCardData); //контекстное меню
 }

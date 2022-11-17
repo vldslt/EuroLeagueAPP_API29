@@ -7,15 +7,20 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.euroleagueapp_api29.pub.Publisher;
 import com.example.euroleagueapp_api29.ui.AboutFragment;
 import com.example.euroleagueapp_api29.ui.LoginFragment;
 
 public class MainActivity<toolbar> extends AppCompatActivity {
 
+    private Publisher publisher;
+    public Publisher getPublisher() {return publisher;}
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        publisher = new Publisher();
 
         if (savedInstanceState == null) {
             LoginFragment loginFragment = new LoginFragment().newInstance();
@@ -51,5 +56,3 @@ public class MainActivity<toolbar> extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 }
-
-// тест

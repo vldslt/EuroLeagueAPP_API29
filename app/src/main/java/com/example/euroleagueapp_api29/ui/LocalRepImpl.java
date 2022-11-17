@@ -21,11 +21,9 @@ public class LocalRepImpl implements CardSourse {
 
     public LocalRepImpl init() {
         String[] titles = resources.getStringArray(R.array.games);
-        //String[] predict = resources.getStringArray(R.array.games);
+        String[] predict = resources.getStringArray(R.array.forecast_stub);
         for (int i = 0; i < titles.length; i++) {
-            dataSourse.add(new CardData(titles[i])
-                    //predict[i]));
-            );
+            dataSourse.add(new CardData(titles[i],predict[i]));
         }
         return this;
     }
@@ -41,8 +39,7 @@ public class LocalRepImpl implements CardSourse {
     }
 
     @Override
-    public CardData getCardData(int position) {
-        return dataSourse.get(position); // вернуть карточку по позиции
+    public CardData getCardData(int position) { return dataSourse.get(position); // вернуть карточку по позиции
     }
 
     @Override

@@ -35,6 +35,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:hint="@string/e_name"
+        android:textAllCaps="true"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
         android:padding="15dp"
@@ -54,6 +55,7 @@
         android:background="@drawable/et_custom"
         android:inputType="textPersonName"
         android:hint="@string/e_surname"
+        android:textAllCaps="true"
         android:padding="15dp"
         android:textSize="20sp" />
 
