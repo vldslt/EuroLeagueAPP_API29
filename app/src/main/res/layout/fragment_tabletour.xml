@@ -16,7 +16,7 @@
         android:alpha="0.75"
         android:background="@color/white"
         android:text="тут будет таблица тура"
-        android:textSize="33sp" />
+        android:textSize="80sp" />
 
 
 </RelativeLayout>

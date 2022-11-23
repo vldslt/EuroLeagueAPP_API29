@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598355824533",
+    "project_id": "euroleagueapp-api29",
+    "storage_bucket": "euroleagueapp-api29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598355824533:android:a859ed1d21f92eefd4f09c",
+        "android_client_info": {
+          "package_name": "com.example.euroleagueapp_api29"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598355824533-8u5t2f2dheji6b2ac9fug6fvqamvuj0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG73K-FcStfi8jmSSsmj7t83nu9Z2g53A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598355824533-8u5t2f2dheji6b2ac9fug6fvqamvuj0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
