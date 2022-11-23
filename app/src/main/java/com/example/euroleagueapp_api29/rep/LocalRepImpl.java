@@ -1,10 +1,8 @@
-package com.example.euroleagueapp_api29.ui;
+package com.example.euroleagueapp_api29.rep;
 
 import android.content.res.Resources;
 
 import com.example.euroleagueapp_api29.R;
-import com.example.euroleagueapp_api29.rep.CardData;
-import com.example.euroleagueapp_api29.rep.CardSourse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +12,7 @@ public class LocalRepImpl implements CardSourse {
     private List<CardData> dataSourse;
     private Resources resources;
 
-    LocalRepImpl(Resources resources){
+    public LocalRepImpl(Resources resources){
         dataSourse = new ArrayList<CardData>();
         this.resources = resources;
         }

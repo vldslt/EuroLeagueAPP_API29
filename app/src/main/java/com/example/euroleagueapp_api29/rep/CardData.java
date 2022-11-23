@@ -5,8 +5,12 @@ import android.os.Parcelable;
 
 public class CardData implements Parcelable {
 
+    private String id;
     private String title;
     private String predict;
+
+    public String getId() {return id;}
+    public void setId(String id) {this.id = id;}
 
     public CardData(String title, String predict) {
         this.title = title;
